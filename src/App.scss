@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+$font-1: "Roboto", sans-serif;
+$font-2: "DM Serif Display", serif;
+$color-1: #fefaf6;
+$color-2: #f0f2f5;
+$badge-color-1: #9272f0;
+
+body {
+  font-family: $font-1;
+  font-weight: 500;
+  background-color: $color-1;
+}
+
+.intro {
+  font-family: $font-2;
+}
+.my-img {
+  border-radius: 15px;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+p,
+h5,
+h6 {
+  font-weight: 400;
+}
+.nav-btn-link {
+  transition: all 0.2s;
+  &:hover {
+    background-color: $color-2;
+  }
+}
+
+.rounded-5 {
+  border-radius: 20px;
+}
+.gray-img {
+  transition: all 0.5s;
+  filter: grayscale(100%);
+  &:hover {
+    filter: grayscale(0%);
+  }
+}
+.badge {
+  border-radius: 8px !important;
+  font-weight: 300;
+}
+.badge-1 {
+  background-color: $badge-color-1;
+}

@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background-color: #fefaf6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro {
+  font-family: "DM Serif Display", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-img {
+  border-radius: 15px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p,
+h5,
+h6 {
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-btn-link {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-btn-link:hover {
+  background-color: #f0f2f5;
 }
+
+.rounded-5 {
+  border-radius: 20px;
+}
+
+.gray-img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.gray-img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.badge {
+  border-radius: 8px !important;
+  font-weight: 300;
+}
+
+.badge-1 {
+  background-color: #9272f0;
+}
+/*# sourceMappingURL=App.css.map */
