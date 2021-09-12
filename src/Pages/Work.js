@@ -27,10 +27,6 @@ export default function Work() {
           </div>
         </div>
 
-        {/* project-section
-        <div className=" projectSection  my-2 p-5 ">
-          <Projects />
-        </div> */}
       </div>
     </>
   );
