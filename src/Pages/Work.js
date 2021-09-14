@@ -1,12 +1,11 @@
 import React from "react";
-import Projects from "../components/Projects";
 import myImg from "../include/profile/my-img.png";
 
 export default function Work() {
   return (
     <>
       <div class="container col-xxl-12 px-4 py-5 my-lg-2 my-3">
-        <div class="d-flex justify-content-between align-items-center flex-wrap px-5 ">
+        <div class="d-flex justify-content-between  justify-content-center align-items-center flex-wrap-reverse px-5 ">
           <div class="col-lg-6">
             <h1 class="display-3 fw-bold intro">
               Hi, I'm Sumit <br />
@@ -17,16 +16,15 @@ export default function Work() {
               products to life.
             </h5>
           </div>
-          <div class="col-10 col-sm-8 col-lg-5">
+          <div class="col-10 col-sm-8 col-lg-5 ">
             <img
               src={myImg}
-              className=" img-fluid my-img gray-img "
+              className=" img-fluid my-img gray-img mb-5 "
               alt="Sumit's Image"
               loading="lazy"
             />
           </div>
         </div>
-
       </div>
     </>
   );
