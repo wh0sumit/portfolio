@@ -6,8 +6,8 @@ import AboutImgData from "./AboutImgData";
 export default function About() {
   return (
     <>
-      <div className="container col-xxl-12 px-4 py-5 my-lg-2 mt-3 mb-5">
-        <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-5 ">
+      <div className="container col-xxl-12 px-lg-4 px-2 py-5 my-lg-2 mt-3 mb-5">
+        <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-lg-5 px-3 ">
           <div className="col-10 col-sm-8 col-lg-5">
             <img
               src={myImg}

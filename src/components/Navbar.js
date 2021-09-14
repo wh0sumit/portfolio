@@ -11,22 +11,22 @@ export default function Navbar() {
       <HashRouter basename="/">
         <nav className=" m-2 d-flex justify-content-lg-around justify-content-center">
           <ul className="nav d-flex  p-lg-4 ps-0 ">
-            <li className="mx-lg-4 mx-2 nav-btn-Link px-3 py-2 rounded-2">
+            <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/" className="text-dark text-decoration-none">
                 Work
               </Link>
             </li>
-            <li className="mx-lg-4 mx-2 nav-btn-Link px-3 py-2 rounded-2">
+            <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/projects" className="text-dark text-decoration-none">
                 Projects
               </Link>
             </li>
-            <li className="mx-lg-4 mx-2 nav-btn-Link px-3 py-2 rounded-2">
+            <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/about" className="text-dark text-decoration-none">
                 About
               </Link>
             </li>
-            <li className="mx-lg-4 mx-2 nav-btn-Link px-3 py-2 rounded-2">
+            <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="" className="text-dark text-decoration-none">
                 Contact
               </Link>
