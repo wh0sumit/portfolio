@@ -6,25 +6,25 @@ import AboutImgData from "./AboutImgData";
 export default function About() {
   return (
     <>
-      <div className="container col-xxl-12 px-lg-4 px-2 py-5 my-lg-2 mt-3 mb-5">
+      <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-5">
         <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-lg-5 px-3 ">
           <div className="col-10 col-sm-8 col-lg-5">
             <img
               src={myImg}
-              className=" img-fluid my-img gray-img mb-5 "
+              className=" img-fluid my-img  mb-5 "
               alt="Sumit's Image"
               loading="lazy"
             />
           </div>
           <div className="col-lg-6">
             <h1 className="display-3 fw-bold intro ">Sumit Singh</h1>
-            <h5 className="mt-5 mb-3">
+            <h5 className="mt-lg-5 mt-3 mb-3">
               Hi! Thanks for stopping by. I’m currently working remotely as a
-              Frontend Developer at
+              Frontend Developer at &nbsp;
               <span className="text-muted text-decoration-underline">
-                TheBugCommunity
+                The Bug Community
               </span>
-              and looking to switch jobs.
+              &nbsp; and looking to switch jobs.
             </h5>
             <h5 className="my-3">
               I’m a developer with 1 year of experience in Front-end Development
@@ -44,80 +44,80 @@ export default function About() {
           <div className="d-flex flex-column">
             <img
               src={AboutImgData["img-1"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-2"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-17"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-18"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-15"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
           </div>
 
           <div className="d-flex flex-column">
             <img
               src={AboutImgData["img-3"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-4"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-11"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-14"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
           </div>
 
           <div className="d-flex flex-column">
             <img
               src={AboutImgData["img-6"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-13"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-19"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-5"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
           </div>
 
           <div className="d-flex flex-column">
             <img
               src={AboutImgData["img-7"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-16"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-9"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
             <img
               src={AboutImgData["img-10"]}
-              className="img-fluid m-3 rounded-5 gray-img"
+              className="img-fluid m-3 rounded-5 "
             />
           </div>
         </div>
@@ -155,13 +155,13 @@ export default function About() {
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">
-                  What Are You Doing With Your Life ? — J.Krishnamurti
+                  What Are You Doing With Your Life ? <br /> — J.Krishnamurti
                 </h6>
               </li>
             </ul>
           </div>
 
-          <div className="col ">
+          <div className="col">
             <h6 className="mt-5 bold">Listening</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
@@ -172,7 +172,11 @@ export default function About() {
         </footer>
       </div>
 
-      <Footer title="I occasionally take on freelance opportunities." />
+      <Footer
+        title="I occasionally take on freelance opportunities."
+        desc="  Have an exciting project where you need some help? Send me over a
+      message, and let's chat!"
+      />
     </>
   );
 }
