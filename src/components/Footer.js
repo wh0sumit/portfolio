@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, HashRouter } from "react-router-dom";
 
 export default function Footer(props) {
   return (
@@ -9,9 +10,11 @@ export default function Footer(props) {
             <h1 class="head">{props.title}</h1>
             <p class=" text-muted">{props.desc}</p>
             <p>
-              <a href="#" class="btn btn-dark my-2">
-                Drop a message <i class="fas fa-paper-plane mx-1"></i>
-              </a>
+              <HashRouter>
+                <Link to={props.file} class="btn btn-dark my-2">
+                  {props.btnTitle} <i class={props.btnIcon}></i>
+                </Link>
+              </HashRouter>
             </p>
           </div>
         </div>

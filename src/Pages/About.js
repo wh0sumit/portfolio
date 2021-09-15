@@ -172,10 +172,116 @@ export default function About() {
         </footer>
       </div>
 
+      <div className="container p-5 py-2">
+        <footer className="row row-cols-1 row-cols-md-4 g-5 my-2 ">
+          <div className="col">
+            <h1 className="head">Strong And Mighty</h1>
+            <p className="text-muted small">Skills and Superpowers</p>
+          </div>
+          <div className=" col">
+            <h6 className="bold mt-5"> Languages</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">C & C++</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">HTML & CSS</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">Javascript</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">PHP</h6>
+              </li>
+            </ul>
+            <h6 className="bold">Libraries</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link small p-0 text-muted">
+                  Jquery
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link small p-0 text-muted">
+                  Reactjs
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">SCSS</h6>
+              </li>
+            </ul>
+          </div>
+          <div className="col">
+            <h6 className="mt-5 bold">Databases</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">MySql</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">MongoDB</h6>
+              </li>
+            </ul>
+            <h6 className=" bold">Platforms</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Gitthub</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Gitthub Pages</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Netlify</h6>
+              </li>
+            </ul>
+          </div>
+          <div className="col">
+            <h6 className="mt-5 bold">Tools</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link small p-0 text-muted">
+                  Git
+                </a>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">PHP MyAdmin</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">NPM</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">
+                  Github Actions
+                </h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">Figma</h6>
+              </li>
+            </ul>
+            <h6 className="bold">Other Skills</h6>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">UI Designing</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">
+                  Open-Source Contribution
+                </h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Mentoring</h6>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+
       <Footer
         title="I occasionally take on freelance opportunities."
         desc="  Have an exciting project where you need some help? Send me over a
       message, and let's chat!"
+        btnTitle="Drop a message"
+        btnIcon="fas fa-paper-plane mx-2"
+        file="/Contact"
       />
     </>
   );

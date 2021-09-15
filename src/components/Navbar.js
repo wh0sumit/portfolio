@@ -27,7 +27,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
-              <Link to="" className="text-dark text-decoration-none">
+              <Link to="/contact" className="text-dark text-decoration-none">
                 Contact
               </Link>
             </li>
