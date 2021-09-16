@@ -8,10 +8,9 @@ export default function Contact() {
   const linkedin = "https://www.linkedin.com/in/wh0sumit";
   const twitter = "https://twitter.com/wh0sumit";
   const github = "https://github.com/wh0sumit";
-  const [msgSent, setMsgSent] = useState(false);
+
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs
       .sendForm(
         process.env.React_App_Contact_Form_Service_ID,
@@ -20,7 +19,9 @@ export default function Contact() {
         process.env.React_App_Contact_Form_User_ID
       )
       .then((res) => {
-        console.log(res);
+        document.querySelector(".name").value = " ";
+        document.querySelector(".email").value = " ";
+        document.querySelector(".message").value = " ";
         if (res.status === 200) alert("Thank You! Your Msg Has Been Sent !");
         else alert("Error !");
       })
@@ -50,10 +51,11 @@ export default function Contact() {
               <div className="form-floating mb-3">
                 <input
                   type="text"
-                  className="form-control rounded-5"
-                  id="floatingInput"
+                  className="form-control rounded-5 name"
                   name="name"
+                  id="floatingInput"
                   placeholder="Enter Your Full Name"
+                  required
                 />
                 <label for="floatingInput">Name</label>
               </div>
@@ -61,22 +63,23 @@ export default function Contact() {
                 <input
                   type="email"
                   name="email"
-                  className="form-control rounded-5"
+                  className="form-control rounded-5 email"
                   id="floatingInput"
+                  pattern=".+@gmail.com"
                   placeholder="name@example.com"
+                  required
                 />
                 <label for="floatingInput">Email address</label>
               </div>
               <div className="form-floating mb-3">
                 <textarea
                   rows="6"
-                  className="form-control rounded-5"
-                  id="message"
-                  name="message"
                   type="text"
+                  className="form-control rounded-5 message"
+                  name="message"
                   placeholder="Message"
                   style={{ height: "150px" }}
-                  data-sb-validations="required"
+                  required
                 ></textarea>
                 <label for="message">Message</label>
                 <div
