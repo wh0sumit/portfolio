@@ -65,7 +65,7 @@ export default function Contact() {
                   name="email"
                   className="form-control rounded-5 email"
                   id="floatingInput"
-                  pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                  pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
                   placeholder="name@example.com"
                   required
                 />
