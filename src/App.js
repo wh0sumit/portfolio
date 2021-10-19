@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Work from "./Pages/Work";
@@ -13,11 +13,13 @@ function App() {
     <div className="">
       <Navbar />
       <HashRouter basename="/">
-        <Route path="/" exact component={Work} />
-        <Route path="/Contact" exact component={Contact} />
-        <Route path="/Projects" exact component={Projects} />
-        <Route path="/About" exact component={About} />
-        <Route component={NotFound} />
+        <Switch>
+          <Route path="/" exact component={Work} />
+          <Route path="/Contact" exact component={Contact} />
+          <Route path="/Projects" exact component={Projects} />
+          <Route path="/About" exact component={About} />
+          <Route component={NotFound} />
+        </Switch>
       </HashRouter>
     </div>
   );

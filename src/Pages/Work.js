@@ -1,6 +1,5 @@
 import React from "react";
-import myImg from "../include/profile/my-img.png";
-
+import myImg from "../assets/profile-2.jpeg";
 export default function Work() {
   return (
     <>

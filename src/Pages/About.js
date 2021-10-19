@@ -1,17 +1,17 @@
 import React from "react";
 import Footer from "../components/Footer";
-import myImg from "../include/profile/my-img.png";
+import myImg from "../assets/profile-2.jpeg";
 
 export default function About() {
   return (
     <>
       <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-5">
         <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-lg-5 px-3 ">
-          <div className="col-10 col-sm-8 col-lg-5">
+          <div class="col-10 col-sm-8 col-lg-5 ">
             <img
               src={myImg}
-              className=" img-fluid my-img  mb-5 "
-              alt="Sumit's Profile"
+              className=" img-fluid my-img mb-3 mb-lg-2"
+              alt="Sumit Profile"
               loading="lazy"
             />
           </div>
