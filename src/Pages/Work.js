@@ -20,7 +20,7 @@ export default function Work() {
             <img
               src={myImg}
               className=" img-fluid my-img  mb-5 "
-              alt="Sumit's Image"
+              alt="Sumit Profile"
               loading="lazy"
             />
           </div>

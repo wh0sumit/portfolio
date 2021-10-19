@@ -11,7 +11,7 @@ export default function About() {
             <img
               src={myImg}
               className=" img-fluid my-img  mb-5 "
-              alt="Sumit's Image"
+              alt="Sumit's Profile"
               loading="lazy"
             />
           </div>
@@ -65,7 +65,11 @@ export default function About() {
             <h6 className="bold">Reading</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link small p-0 text-muted">
+                <a
+                  href="#"
+                  className="nav-link small p-0 text-muted"
+                  rel="noreferrer"
+                >
                   Steve Jobs — Walter Issacson
                 </a>
               </li>
@@ -113,12 +117,20 @@ export default function About() {
             <h6 className="bold">Libraries</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link small p-0 text-muted">
+                <a
+                  href="#"
+                  className="nav-link small p-0 text-muted"
+                  rel="noreferrer"
+                >
                   Jquery
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link small p-0 text-muted">
+                <a
+                  href="#"
+                  className="nav-link small p-0 text-muted"
+                  rel="noreferrer"
+                >
                   Reactjs
                 </a>
               </li>
@@ -154,7 +166,11 @@ export default function About() {
             <h6 className="mt-5 bold">Tools</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="#" className="nav-link small p-0 text-muted">
+                <a
+                  href="#"
+                  className="nav-link small p-0 text-muted"
+                  rel="noreferrer"
+                >
                   Git
                 </a>
               </li>

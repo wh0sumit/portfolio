@@ -14,6 +14,7 @@ function Cards(ProjectDetails) {
               <a
                 href={ProjectDetails.GithubURL}
                 target="_blank"
+                rel="noreferrer" 
                 className="btn btn-dark rounded-5 px-2 py-1 "
               >
                 <i className="fab fa-github text-light"></i>
@@ -21,6 +22,7 @@ function Cards(ProjectDetails) {
               <a
                 href={ProjectDetails.PreviewURL}
                 target="_blank"
+                rel="noreferrer" 
                 className="btn btn-dark rounded-5 px-2 py-1 mx-2 "
               >
                 <i className="fas fa-link text-light"></i>
