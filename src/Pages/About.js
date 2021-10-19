@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
 import myImg from "../include/profile/my-img.png";
-import AboutImgData from "./AboutImgData";
 
 export default function About() {
   return (
@@ -36,89 +35,6 @@ export default function About() {
               nature, I love to connect with people who can teach me something.
               Anything.
             </h5>
-          </div>
-        </div>
-      </div>
-      <div className="container my-5">
-        <div className="d-flex flex-row flex-wrap justify-content-center my-5">
-          <div className="d-flex flex-column">
-            <img
-              src={AboutImgData["img-1"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-2"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-17"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-18"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-15"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src={AboutImgData["img-3"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-4"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-11"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-14"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src={AboutImgData["img-6"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-13"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-19"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-5"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src={AboutImgData["img-7"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-16"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-9"]}
-              className="img-fluid m-3 rounded-5 "
-            />
-            <img
-              src={AboutImgData["img-10"]}
-              className="img-fluid m-3 rounded-5 "
-            />
           </div>
         </div>
       </div>
