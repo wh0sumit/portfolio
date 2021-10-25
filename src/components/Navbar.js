@@ -24,7 +24,7 @@ export default function Navbar() {
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/projects" className="text-dark text-decoration-none">
-                Projects & Experience
+                Projects
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
