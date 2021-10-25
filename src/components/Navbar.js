@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, HashRouter } from "react-router-dom";
+import Hand from "../assets/hand.gif";
 
 export default function Navbar() {
   const instagram = "https://instagram.com/wh0sumiit";
@@ -13,12 +14,17 @@ export default function Navbar() {
           <ul className="nav d-flex  p-lg-4 ps-0 ">
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/" className="text-dark text-decoration-none">
-                Work
+                Hi{" "}
+                <img
+                  src={Hand}
+                  style={{ width: "30px", transform: "rotate(-30deg)" }}
+                  alt="Hand Gif"
+                />
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
               <Link to="/projects" className="text-dark text-decoration-none">
-                Projects
+                Projects & Experience
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">

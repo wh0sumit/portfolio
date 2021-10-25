@@ -2,26 +2,32 @@ import "./App.css";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Work from "./Pages/Work";
-import Projects from "./Pages/Projects";
-import About from "./Pages/About.js";
-import Contact from "./Pages/Contact.js";
+
 import NotFound from "./Pages/NotFound";
+import React, { Suspense } from "react";
+const Hi = React.lazy(() => import("./Pages/Hi"));
+const Projects = React.lazy(() => import("./Pages/Projects"));
+const About = React.lazy(() => import("./Pages/About.js"));
+const Contact = React.lazy(() => import("./Pages/Contact.js"));
 
 function App() {
   return (
-    <div className="">
+    <React.Fragment>
       <Navbar />
       <HashRouter basename="/">
-        <Switch>
-          <Route path="/" exact component={Work} />
-          <Route path="/Contact" exact component={Contact} />
-          <Route path="/Projects" exact component={Projects} />
-          <Route path="/About" exact component={About} />
-          <Route component={NotFound} />
-        </Switch>
+        <Suspense fallback={<h1>Loading</h1>}>
+          <section>
+            <Switch>
+              <Route path="/" exact component={Hi} />
+              <Route path="/Projects" exact component={Projects} />
+              <Route path="/About" exact component={About} />
+              <Route path="/Contact" exact component={Contact} />
+              <Route component={NotFound} />
+            </Switch>
+          </section>
+        </Suspense>
       </HashRouter>
-    </div>
+    </React.Fragment>
   );
 }
 

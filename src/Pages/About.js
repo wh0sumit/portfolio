@@ -39,10 +39,10 @@ export default function About() {
         </div>
       </div>
 
-      {/* footer */}
+      {/* div */}
 
       <div className="container p-5 py-2">
-        <footer className="row row-cols-1 row-cols-md-3 g-5 my-5 ">
+        <div className="row row-cols-1 row-cols-md-3 g-5 my-5 ">
           <div className="col">
             <h1 className="head">Latest and Greatest</h1>
             <p className="text-muted small">As of Sep 2021</p>
@@ -66,7 +66,7 @@ export default function About() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a
-                  href="#"
+                  href="/#"
                   className="nav-link small p-0 text-muted"
                   rel="noreferrer"
                 >
@@ -89,11 +89,11 @@ export default function About() {
               </li>
             </ul>
           </div>
-        </footer>
+        </div>
       </div>
 
       <div className="container p-5 py-2">
-        <footer className="row row-cols-1 row-cols-md-4 g-5 my-2 ">
+        <div className="row row-cols-1 row-cols-md-4 g-5 my-2 ">
           <div className="col">
             <h1 className="head">Strong And Mighty</h1>
             <p className="text-muted small">Skills and Superpowers</p>
@@ -118,7 +118,7 @@ export default function About() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a
-                  href="#"
+                  href="/#"
                   className="nav-link small p-0 text-muted"
                   rel="noreferrer"
                 >
@@ -127,7 +127,7 @@ export default function About() {
               </li>
               <li className="nav-item mb-2">
                 <a
-                  href="#"
+                  href="/#"
                   className="nav-link small p-0 text-muted"
                   rel="noreferrer"
                 >
@@ -167,7 +167,7 @@ export default function About() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a
-                  href="#"
+                  href="/#"
                   className="nav-link small p-0 text-muted"
                   rel="noreferrer"
                 >
@@ -204,7 +204,7 @@ export default function About() {
               </li>
             </ul>
           </div>
-        </footer>
+        </div>
       </div>
 
       <Footer
