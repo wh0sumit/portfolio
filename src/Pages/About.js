@@ -114,25 +114,22 @@ export default function About() {
                 <h6 className="nav-link small p-0 text-muted">PHP</h6>
               </li>
             </ul>
-            <h6 className="bold">Libraries</h6>
+            <h6 className="bold">Libraries & Frameworks</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a
-                  href="/#"
-                  className="nav-link small p-0 text-muted"
-                  rel="noreferrer"
-                >
-                  Jquery
-                </a>
+                <h6 className="nav-link small p-0 text-muted">Bootstrap</h6>
               </li>
               <li className="nav-item mb-2">
-                <a
-                  href="/#"
-                  className="nav-link small p-0 text-muted"
-                  rel="noreferrer"
-                >
-                  Reactjs
-                </a>
+                <h6 className="nav-link small p-0 text-muted">Chakra UI </h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">Materialize </h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">Jquery</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">React Js</h6>
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">SCSS</h6>
@@ -159,6 +156,12 @@ export default function About() {
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">Netlify</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Vercel</h6>
+              </li>
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">Firebase</h6>
               </li>
             </ul>
           </div>
