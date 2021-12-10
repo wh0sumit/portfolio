@@ -2,19 +2,26 @@ const ProjectData = {
   ProjectsData: [
     {
       id: 1,
+      title: "Syndicate",
+      desc: "Syndicate is a platform where business holders can showcase their business in no time. It's a website builder where any business holder can create their website through Syndicate. ",
+      github: "https://github.com/SyndicateHQ",
+      view: "http://syndicate-navy.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Propack",
       desc: "ProPack is a solution for programmer who cannot find the right resources and projects.ProPack is the single sure source that brings amazing projects with live demo and code. ",
       github: "https://github.com/WH0SUMIT/propack",
       view: "https://propack.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Artistry",
       desc: "The artistry is dedicated to providing a platform where anyone can showcase their artwork and encouraging innovative and creative opportunities within the community.",
       github: "https://github.com/WH0SUMIT/Artistry",
     },
     {
-      id: 3,
+      id: 4,
       title: "ChitChat",
       desc: "ChitChat is a Realtime Chat Application using PHP with MySQL & JavaScript Ajax.",
     },

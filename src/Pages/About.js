@@ -16,19 +16,30 @@ export default function About() {
             />
           </div>
           <div className="col-lg-6">
-            <h1 className="display-3 fw-bold intro ">Sumit Singh</h1>
+            {/* <h1 className="display-3 fw-bold intro ">Sumit Singh</h1> */}
             <h5 className="mt-lg-5 mt-3 mb-3">
               Hi! Thanks for stopping by. I’m currently working remotely as a
               Frontend Developer at &nbsp;
               <span className="text-muted text-decoration-underline">
-                The Bug Community
+                Angel AI
               </span>
               &nbsp; and looking to switch jobs.
             </h5>
             <h5 className="my-3">
-              I’m a developer with 1 year of experience in Front-end Development
-              and one year of UI design. I became a Frontend Developer because
-              the idea of solving problems gave me an immense thrill.
+              I’m a developer with 1 year of experience in Front-end
+              Development. I became a Frontend Developer because the idea of
+              solving problems gave me an immense thrill.
+            </h5>
+            <h5 className="my-3">
+              Also, I run a digital marketing agency called{" "}
+              <a
+                className="badge fw-bold fs-5 text-light text-decoration-none"
+                href="https://www.thebugcommunity.in/"
+                target="_blank"
+              >
+                The Bug Community
+              </a>{" "}
+              that helps businesses increase leads, traffic, and sales.
             </h5>
             <h5 className="my-3">
               I love to solve challenging problems. Curious and adventurous by
@@ -196,6 +207,14 @@ export default function About() {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">UI Designing</h6>
+              </li>{" "}
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">
+                  Digital Marketing
+                </h6>
+              </li>{" "}
+              <li className="nav-item mb-2">
+                <h6 className="nav-link p-0 small text-muted">SEO & SEM</h6>
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">

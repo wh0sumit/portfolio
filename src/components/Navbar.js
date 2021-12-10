@@ -3,7 +3,7 @@ import { Link, HashRouter } from "react-router-dom";
 import Hand from "../assets/hand.gif";
 
 export default function Navbar() {
-  const instagram = "https://instagram.com/wh0sumiit";
+  const instagram = "https://www.instagram.com/wh0sumiit/";
   const linkedin = "https://www.linkedin.com/in/wh0sumit";
   const twitter = "https://twitter.com/wh0sumit";
   const github = "https://github.com/wh0sumit";

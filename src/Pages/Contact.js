@@ -1,7 +1,9 @@
 import emailjs from "emailjs-com";
 import Footer from "../components/Footer";
-
+import ReactModal from "react-modal";
+import { useState } from "react";
 export default function Contact() {
+  const [thankyouModalRef, setThankyouModalState] = useState(false);
   const instagram = "https://instagram.com/wh0sumiit";
   const linkedin = "https://www.linkedin.com/in/wh0sumit";
   const twitter = "https://twitter.com/wh0sumit";
@@ -20,13 +22,28 @@ export default function Contact() {
         document.querySelector(".name").value = " ";
         document.querySelector(".email").value = " ";
         document.querySelector(".message").value = " ";
-        if (res.status === 200) alert("Thank You! Your Msg Has Been Sent !");
-        else alert("Error !");
+        if (res.status === 200) {
+          // alert("Thank You! Your Msg Has Been Sent !");
+          setThankyouModalState(true);
+        } else alert("Error !");
       })
       .catch((err) => {
         console.log(err);
       });
   }
+  const customStyles = {
+    overlay: {
+      backgroundColor: "var(--color-purple-700)",
+    },
+    content: {
+      top: "50%",
+      left: "50%",
+      right: "auto",
+      bottom: "auto",
+      marginRight: "-50%",
+      transform: "translate(-50%, -50%)",
+    },
+  };
 
   return (
     <>
@@ -62,12 +79,12 @@ export default function Contact() {
                   type="email"
                   name="email"
                   className="form-control rounded-5 email"
-                  id="floatingInput"
+                  id="floatingInputEmail"
                   pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
                   placeholder="name@example.com"
                   required
                 />
-                <label for="floatingInput">Email address</label>
+                <label for="floatingInputEmail">Email address</label>
               </div>
               <div className="form-floating mb-3">
                 <textarea
@@ -140,6 +157,24 @@ export default function Contact() {
         btnIcon="fas fa-briefcase mx-2"
         file="/Projects"
       />
+
+      {/* react modal */}
+      <ReactModal
+        isOpen={thankyouModalRef}
+        style={customStyles}
+        onRequestClose={() => setThankyouModalState(false)}
+      >
+        <div className=" text-center p-2">
+          <h1 className="py-3 intro">Thank You 🧡</h1>
+          <h5 className="py-3">Your message has been sent successfully! </h5>
+          <button
+            className="btn btn-dark "
+            onClick={() => setThankyouModalState(false)}
+          >
+            ⬅ Back to site
+          </button>
+        </div>
+      </ReactModal>
     </>
   );
 }

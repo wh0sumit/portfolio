@@ -5,7 +5,7 @@ $font-1: "Roboto", sans-serif;
 $font-2: "DM Serif Display", serif;
 $color-1: #fefaf6;
 $color-2: #f0f2f5;
-$badge-color-1: #9272f0;
+$badge-color-1: #b59dff;
 
 body {
   font-family: $font-1;
@@ -54,11 +54,20 @@ h6 {
   }
 }
 .badge {
-  border-radius: 8px !important;
-  font-weight: 300;
-}
-.badge-1 {
+  border-radius: 6px !important;
+  padding: 5px 8px;
   background-color: $badge-color-1;
+}
+
+.custom-underline {
+  background: linear-gradient(transparent 70%, $badge-color-1 30%);
+  display: inline;
+  margin-top: 50px;
+  padding-bottom: 0;
+  /*@include mq('sp') {
+      font-size: $size-subTitle-sp;
+      margin-top: 30px;
+  }*/
 }
 
 .flex-column {

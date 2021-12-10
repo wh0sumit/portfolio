@@ -60,12 +60,21 @@ h6 {
 }
 
 .badge {
-  border-radius: 8px !important;
-  font-weight: 300;
+  border-radius: 6px !important;
+  padding: 5px 8px;
+  background-color: #b59dff;
 }
 
-.badge-1 {
-  background-color: #9272f0;
+.custom-underline {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(30%, #b59dff));
+  background: linear-gradient(transparent 70%, #b59dff 30%);
+  display: inline;
+  margin-top: 50px;
+  padding-bottom: 0;
+  /*@include mq('sp') {
+      font-size: $size-subTitle-sp;
+      margin-top: 30px;
+  }*/
 }
 
 .flex-column {
@@ -80,6 +89,9 @@ h6 {
 }
 
 .flex-column img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  padding-top: 5px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }

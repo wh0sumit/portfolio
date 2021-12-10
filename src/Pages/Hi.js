@@ -8,6 +8,8 @@ export default function Work() {
           <div class="col-lg-6">
             <h1 class="display-3 fw-bold intro">
               Hi, I'm Sumit <br />
+            </h1>
+            <h1 class="custom-underline display-3 fw-bold intro">
               Frontend Developer & Designer
             </h1>
             <h5 className="my-3">
