@@ -42,6 +42,9 @@ export default function Contact() {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
+      backgroundColor: "#fff",
+      border: "10px solid #b59dff",
+      borderRadius: "20px",
     },
   };
 
@@ -165,7 +168,7 @@ export default function Contact() {
         onRequestClose={() => setThankyouModalState(false)}
       >
         <div className=" text-center p-2">
-          <h1 className="py-3 intro">Thank You 🧡</h1>
+          <h1 className="py-3 intro">Thank You ❤</h1>
           <h5 className="py-3">Your message has been sent successfully! </h5>
           <button
             className="btn btn-dark "
