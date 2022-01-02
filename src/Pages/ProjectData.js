@@ -9,19 +9,26 @@ const ProjectData = {
     },
     {
       id: 2,
+      title: "Invoicetor",
+      desc: "Invoicetor is a platform where business holders can create invoice for their businesses. It's a invoice generator, with a simple UI, and a lots of features. ",
+      github: "https://github.com/SyndicateHQ/Invoicetor",
+      view: "https://invoicetor.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Propack",
       desc: "ProPack is a solution for programmer who cannot find the right resources and projects.ProPack is the single sure source that brings amazing projects with live demo and code. ",
       github: "https://github.com/WH0SUMIT/propack",
       view: "https://propack.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Artistry",
       desc: "The artistry is dedicated to providing a platform where anyone can showcase their artwork and encouraging innovative and creative opportunities within the community.",
       github: "https://github.com/WH0SUMIT/Artistry",
     },
     {
-      id: 4,
+      id: 5,
       title: "ChitChat",
       desc: "ChitChat is a Realtime Chat Application using PHP with MySQL & JavaScript Ajax.",
     },
@@ -64,6 +71,19 @@ const PersonalExperienceData = {
   PersonalExperienceData: [
     {
       id: 1,
+      title: "Angel Ai",
+      subtitle: "{ UI Developer }",
+      desc: `I'm working in a team of web designers, backend developers, and UX designers to meet project goals and create better user experiences.
+      Using my skills in debugging to check code, improve code and enhance the functionality and user experience of the web application.
+      Supervise junior developers, providing training and motivating team members. 
+       `,
+    },
+  ],
+};
+const VolunteerExperienceData = {
+  VolunteerExperienceData: [
+    {
+      id: 1,
       title: "The Design Systems",
       subtitle: "{ Frontend Developer & Contributor }",
       desc: `At the DesignSystems, I've worked/contributed to a CSS Component library for frontend Developers called Eccentric Touch. I've also worked/contributed on some other projects of The DesignSystems like getbuttons.io, etc. `,
@@ -72,33 +92,8 @@ const PersonalExperienceData = {
     },
     {
       id: 2,
-      title: "Angel Ai",
-      subtitle: "{ UI Developer }",
-      desc: `I'm working in a team of web designers, backend developers, and UX designers to meet project goals and create better user experiences.
-      Using my skills in debugging to check code, improve code and enhance the functionality and user experience of the web application.
-      Supervise junior developers, providing training and motivating team members. 
-       `,
-    },
-    {
-      id: 3,
-      title: "Lets Grow More",
-      subtitle: "{ Campus Ambassador & Web Development Intern }",
-      desc: `I'm working as a Campus Ambassadors & Web Development Intern, as an Intern, I learned about frontend development languages and frameworks & also created some cool projects.`,
-      view: "https://letsgrowmore.in/",
-    },
-  ],
-};
-const VolunteerExperienceData = {
-  VolunteerExperienceData: [
-    {
-      id: 1,
       title: "Hack Nitr 3.0",
       subtitle: "{ Mentor}",
-    },
-    {
-      id: 2,
-      title: "Lets Grow More - LGM'soc",
-      subtitle: "{ Mentor }",
     },
     {
       id: 3,

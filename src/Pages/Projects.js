@@ -50,7 +50,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="container col-xxl-9 px-lg-5 px-2 py-5 my-lg-2 mt-3 mb-5">
-        <h1 className="head my-3 fw-bold">Personal Experience</h1>
+        <h1 className="head my-3 fw-bold">Professional Experience</h1>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           {personalExperienceData.map((projects, index) => (
             <ProjectCard
@@ -73,6 +73,9 @@ export default function Projects() {
               ProjectId={projects.id}
               ProjectTitle={projects.title}
               ProjectSubTitle={projects.subtitle}
+              ProjectDescription={projects.desc}
+              GithubURL={projects.github}
+              PreviewURL={projects.view}
             ></ProjectCard>
           ))}
         </div>

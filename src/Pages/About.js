@@ -36,6 +36,7 @@ export default function About() {
                 className="badge fw-bold fs-5 text-light text-decoration-none"
                 href="https://www.thebugcommunity.in/"
                 target="_blank"
+                rel="noreferrer"
               >
                 The Bug Community
               </a>{" "}
