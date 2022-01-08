@@ -3,7 +3,15 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  background-color: #fefaf6;
+  background-color: #141720;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  color: #dfdfdf;
 }
 
 .intro {
@@ -17,7 +25,6 @@ body {
 }
 
 h1 {
-  color: #1a202c;
   font-family: "DM Serif Display", serif;
 }
 
@@ -40,7 +47,11 @@ h6 {
 }
 
 .nav-btn-link:hover {
-  background-color: #f0f2f5;
+  background-color: #dfdfdf;
+}
+
+.card {
+  background-color: #dfdfdf;
 }
 
 .rounded-5 {
@@ -63,11 +74,16 @@ h6 {
   border-radius: 6px !important;
   padding: 5px 8px;
   background-color: #b59dff;
+  color: #141720;
+}
+
+.badge:hover {
+  color: #141720;
 }
 
 .custom-underline {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(30%, #b59dff));
-  background: linear-gradient(transparent 70%, #b59dff 30%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(30%, #9213e8));
+  background: linear-gradient(transparent 70%, #9213e8 30%);
   display: inline;
   margin-top: 50px;
   padding-bottom: 0;
@@ -96,11 +112,33 @@ h6 {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.btn-light {
+  background-color: #d6d6d6;
+}
+
 .btn-dark {
-  background-color: #000;
+  background-color: #141720;
+}
+
+.text-light {
+  color: #dfdfdf !important;
 }
 
 .head {
   font-weight: 700;
+}
+
+.about-title {
+  color: #bdbdbd !important;
+}
+
+.btn-custom-1 {
+  background-color: #dfdfdf;
+  color: #141720;
+}
+
+.btn-custom-1:hover {
+  background-color: #bdbdbd;
+  color: #141720;
 }
 /*# sourceMappingURL=App.css.map */

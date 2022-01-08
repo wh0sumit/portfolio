@@ -56,14 +56,14 @@ export default function Contact() {
             <h1 className="display-4 fw-bold lh-1 mb-3">
               Having a great idea to share?
             </h1>
-            <p className="col-lg-10 fs-6">
+            <p className="col-lg-10 fs-6 text-muted">
               or want to have a cup of coffee and chit chat, just drop me a
               message !
             </p>
           </div>
           <div className="col-md-10 mx-auto col-lg-6">
             <form
-              className="p-4 p-md-5 border rounded-5 bg-white shadow-sm"
+              className="p-4 p-md-5 border rounded-5 bg-light shadow-sm"
               onSubmit={sendEmail}
             >
               <div className="form-floating mb-3">

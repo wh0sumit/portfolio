@@ -15,12 +15,12 @@ export default function About() {
               loading="lazy"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 text-light">
             {/* <h1 className="display-3 fw-bold intro ">Sumit Singh</h1> */}
             <h5 className="mt-lg-5 mt-3 mb-3">
               Hi! Thanks for stopping by. I’m currently working remotely as a
               Frontend Developer at &nbsp;
-              <span className="text-muted text-decoration-underline">
+              <span className="about-title text-decoration-underline">
                 Angel AI
               </span>
               &nbsp; and looking to switch jobs.
@@ -33,7 +33,7 @@ export default function About() {
             <h5 className="my-3">
               Also, I run a digital marketing agency called{" "}
               <a
-                className="badge fw-bold fs-5 text-light text-decoration-none"
+                className="badge fw-bold fs-5 text-decoration-none"
                 href="https://www.thebugcommunity.in/"
                 target="_blank"
                 rel="noreferrer"
@@ -60,7 +60,7 @@ export default function About() {
             <p className="text-muted small">As of Sep 2021</p>
           </div>
           <div className=" col">
-            <h6 className="bold mt-5"> Learning</h6>
+            <h6 className="bold mt-5 about-title"> Learning</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">MERN Stack</h6>
@@ -74,7 +74,7 @@ export default function About() {
                 <h6 className="nav-link small p-0 text-muted">Photography</h6>
               </li>
             </ul>
-            <h6 className="bold">Reading</h6>
+            <h6 className="bold about-title">Reading</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a
@@ -94,7 +94,7 @@ export default function About() {
           </div>
 
           <div className="col">
-            <h6 className="mt-5 bold">Listening</h6>
+            <h6 className="mt-5 bold about-title">Listening</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">Indie Folk</h6>
@@ -111,7 +111,7 @@ export default function About() {
             <p className="text-muted small">Skills and Superpowers</p>
           </div>
           <div className=" col">
-            <h6 className="bold mt-5"> Languages</h6>
+            <h6 className="bold mt-5 about-title"> Languages</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">C & C++</h6>
@@ -126,7 +126,7 @@ export default function About() {
                 <h6 className="nav-link small p-0 text-muted">PHP</h6>
               </li>
             </ul>
-            <h6 className="bold">Libraries & Frameworks</h6>
+            <h6 className="bold about-title">Libraries & Frameworks</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">Bootstrap</h6>
@@ -149,7 +149,7 @@ export default function About() {
             </ul>
           </div>
           <div className="col">
-            <h6 className="mt-5 bold">Databases</h6>
+            <h6 className="mt-5 bold about-title">Databases</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">MySql</h6>
@@ -158,7 +158,7 @@ export default function About() {
                 <h6 className="nav-link p-0 small text-muted">MongoDB</h6>
               </li>
             </ul>
-            <h6 className=" bold">Platforms</h6>
+            <h6 className=" bold about-title">Platforms</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">Gitthub</h6>
@@ -178,7 +178,7 @@ export default function About() {
             </ul>
           </div>
           <div className="col">
-            <h6 className="mt-5 bold">Tools</h6>
+            <h6 className="mt-5 bold about-title">Tools</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a
@@ -204,7 +204,7 @@ export default function About() {
                 <h6 className="nav-link small p-0 text-muted">Figma</h6>
               </li>
             </ul>
-            <h6 className="bold">Other Skills</h6>
+            <h6 className="bold about-title">Other Skills</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <h6 className="nav-link p-0 small text-muted">UI Designing</h6>

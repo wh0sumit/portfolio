@@ -11,7 +11,7 @@ export default function Footer(props) {
             <p class=" text-muted">{props.desc}</p>
             <p>
               <HashRouter>
-                <Link to={props.file} class="btn btn-dark my-2">
+                <Link to={props.file} class="btn btn-custom-1 my-2">
                   {props.btnTitle} <i class={props.btnIcon}></i>
                 </Link>
               </HashRouter>

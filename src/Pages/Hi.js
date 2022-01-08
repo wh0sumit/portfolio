@@ -12,7 +12,7 @@ export default function Work() {
             <h1 class="custom-underline display-3 fw-bold intro">
               Frontend Developer & Designer
             </h1>
-            <h5 className="my-3">
+            <h5 className="my-3 text-muted">
               With a keen eye for creating engaging websites, UI and bringing
               products to life.
             </h5>

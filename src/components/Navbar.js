@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className=" m-2 d-flex justify-content-lg-around justify-content-center">
           <ul className="nav d-flex  p-lg-4 ps-0 ">
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
-              <Link to="/" className="text-dark text-decoration-none">
+              <Link to="/" className="text-light text-decoration-none">
                 Hi{" "}
                 <img
                   src={Hand}
@@ -23,17 +23,17 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
-              <Link to="/projects" className="text-dark text-decoration-none">
+              <Link to="/projects" className="text-light text-decoration-none">
                 Projects
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
-              <Link to="/about" className="text-dark text-decoration-none">
+              <Link to="/about" className="text-light text-decoration-none">
                 About
               </Link>
             </li>
             <li className="mx-lg-4 mx-2 nav-btn-Link px-lg-3 px-2 py-2 rounded-2">
-              <Link to="/contact" className="text-dark text-decoration-none">
+              <Link to="/contact" className="text-light text-decoration-none">
                 Contact
               </Link>
             </li>
@@ -46,7 +46,7 @@ export default function Navbar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-instagram fs-4 text-dark"></i>
+                <i className="fab fa-instagram fs-4 text-light"></i>
               </a>
             </li>
             <li className="mx-lg-3">
@@ -56,7 +56,7 @@ export default function Navbar() {
                 rel="noreferrer"
                 className="text-decoration-none"
               >
-                <i className="fab fa-twitter fs-4 text-dark"></i>
+                <i className="fab fa-twitter fs-4 text-light"></i>
               </a>
             </li>
             <li className="mx-lg-3">
@@ -66,7 +66,7 @@ export default function Navbar() {
                 rel="noreferrer"
                 className="text-decoration-none"
               >
-                <i className="fab fa-linkedin fs-4 text-dark"></i>
+                <i className="fab fa-linkedin fs-4 text-light"></i>
               </a>
             </li>
             <li className="mx-lg-3">
@@ -76,7 +76,7 @@ export default function Navbar() {
                 rel="noreferrer"
                 className="text-decoration-none"
               >
-                <i className="fab fa-github fs-4 text-dark"></i>
+                <i className="fab fa-github fs-4 text-light"></i>
               </a>
             </li>
           </ul>
