@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
@@ -13,7 +14,11 @@ export default function Footer(props) {
               <Link to={props.file} class="btn btn-custom-1 m-2">
                 {props.btnTitle} <i class={props.btnIcon}></i>
               </Link>
-              <a class="btn btn-custom-1 m-2" href="" download>
+              <a
+                class="btn btn-custom-1 m-2"
+                href={Resume}
+                download="Sumit-Singh-Resume"
+              >
                 Download Resume
                 <i class="fa fa-download mx-2"></i>
               </a>
