@@ -1,11 +1,11 @@
 import React from "react";
-import Resume from "../assets/resume.pdf";
+// import Resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
   return (
     <>
-      <section class="py-lg-5  text-center container">
+      <section class="py-lg-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-5 col-md-8 mx-auto">
             <h1 class="head">{props.title}</h1>
@@ -16,11 +16,11 @@ export default function Footer(props) {
               </Link>
               <a
                 class="btn btn-custom-1 m-2"
-                href={Resume}
+                href="https://wh0sumit.notion.site/wh0sumit/Sumit-Singh-0a69c9570cc34c5488ea5073231a372f"
                 download="Sumit-Singh-Resume"
               >
-                Download Resume
-                <i class="fa fa-download mx-2"></i>
+                Resume
+          
               </a>
             </div>
           </div>
