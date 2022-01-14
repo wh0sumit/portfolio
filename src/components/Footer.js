@@ -17,7 +17,6 @@ export default function Footer(props) {
               <a
                 class="btn btn-custom-1 m-2"
                 href="https://wh0sumit.notion.site/wh0sumit/Sumit-Singh-0a69c9570cc34c5488ea5073231a372f"
-                download="Sumit-Singh-Resume"
               >
                 Resume
           
