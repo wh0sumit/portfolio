@@ -1,5 +1,4 @@
 import React from "react";
-import Resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 
 export default function Footer(props) {
@@ -16,12 +15,8 @@ export default function Footer(props) {
               </Link>
               <a
                 class="btn btn-custom-1 m-2"
-                href={Resume}
-                download="Sumit-Singh-Resume"
-              >
-                Download Resume
-                <i class="fa fa-download mx-2"></i>
-              </a>
+                href="https://wh0sumit.notion.site/wh0sumit/Sumit-Singh-0a69c9570cc34c5488ea5073231a372f"
+              ></a>
             </div>
           </div>
         </div>
