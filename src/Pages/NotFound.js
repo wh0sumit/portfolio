@@ -9,7 +9,7 @@ export default function NotFound() {
             <h1 class="display-4 fw-bold lh-1 mb-3">
               404 Error <i class="fas fa-bomb fs-1 mx-3"></i>
             </h1>
-            <p class="col fs-4">
+            <p class="col fs-4 text-light">
               Sorry, I can’t seem to find what you’re looking for.
             </p>
           </div>

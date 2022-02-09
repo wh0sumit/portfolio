@@ -1,8 +1,24 @@
-import React from "react";
+import { useState } from "react";
+import { ProfessionalExperienceData } from "./ProjectData";
+import ProjectCard from "./ProjectCard";
+
 import Footer from "../components/Footer";
 import myImg from "../assets/profile-2.jpeg";
+import Popsound from "../assets/pop.mp3";
 
 export default function About() {
+  const [professionalExperienceData] = useState(
+    ProfessionalExperienceData.ProfessionalExperienceData
+  );
+  const playpop = (e) => {
+    var audio = new Audio(Popsound);
+
+    audio.play();
+  };
+  const stoppop = (e) => {
+    var audio = new Audio(Popsound);
+    audio.pause();
+  };
   return (
     <>
       <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-5">
@@ -21,7 +37,7 @@ export default function About() {
               Hi! Thanks for stopping by. I’m currently working remotely as a
               Frontend Developer at &nbsp;
               <span className="about-title text-decoration-underline">
-                Angel AI
+                Vector 32
               </span>
               &nbsp; and looking to switch jobs.
             </h5>
@@ -37,6 +53,8 @@ export default function About() {
                 href="https://www.thebugcommunity.in/"
                 target="_blank"
                 rel="noreferrer"
+                onMouseOver={playpop}
+                onMouseLeave={stoppop}
               >
                 The Bug Community
               </a>{" "}
@@ -52,6 +70,20 @@ export default function About() {
       </div>
 
       {/* div */}
+      <div className="container p-5 py-2">
+        <h1 className="head my-3 fw-bold">Professional Experience</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-2">
+          {professionalExperienceData.map((projects, index) => (
+            <ProjectCard
+              ProjectId={projects.id}
+              ProjectTitle={projects.title}
+              ProjectSubTitle={projects.subtitle}
+              ProjectDescription={projects.desc}
+              ProjectTech={projects.techStack.map((tech) => tech)}
+            ></ProjectCard>
+          ))}
+        </div>
+      </div>
 
       <div className="container p-5 py-2">
         <div className="row row-cols-1 row-cols-md-3 g-5 my-5 ">

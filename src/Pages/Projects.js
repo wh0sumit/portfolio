@@ -3,7 +3,6 @@ import { useState } from "react";
 import {
   ProjectData,
   SideProjectData,
-  PersonalExperienceData,
   VolunteerExperienceData,
 } from "./ProjectData";
 import Footer from "../components/Footer";
@@ -12,9 +11,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   const [projectsData] = useState(ProjectData.ProjectsData);
   const [sideprojectsData] = useState(SideProjectData.SideProjectsData);
-  const [personalExperienceData] = useState(
-    PersonalExperienceData.PersonalExperienceData
-  );
+
   const [volunteerExperienceData] = useState(
     VolunteerExperienceData.VolunteerExperienceData
   );
@@ -25,7 +22,7 @@ export default function Projects() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
           {projectsData.map((projects, index) => (
             <ProjectCard
-              ProjectId={projects.id}
+              ProjectId={index}
               ProjectTitle={projects.title}
               ProjectDescription={projects.desc}
               GithubURL={projects.github}
@@ -39,27 +36,12 @@ export default function Projects() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
           {sideprojectsData.map((projects, index) => (
             <ProjectCard
-              ProjectId={projects.id}
+              ProjectId={index}
               ProjectTitle={projects.title}
               ProjectDescription={projects.desc}
               GithubURL={projects.github}
               PreviewURL={projects.view}
               Tags={projects.tag}
-            ></ProjectCard>
-          ))}
-        </div>
-      </div>
-      <div className="container col-xxl-9 px-lg-5 px-2 py-5 my-lg-2 mt-3 mb-5">
-        <h1 className="head my-3 fw-bold">Professional Experience</h1>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          {personalExperienceData.map((projects, index) => (
-            <ProjectCard
-              ProjectId={projects.id}
-              ProjectTitle={projects.title}
-              ProjectSubTitle={projects.subtitle}
-              ProjectDescription={projects.desc}
-              GithubURL={projects.github}
-              PreviewURL={projects.view}
             ></ProjectCard>
           ))}
         </div>
@@ -70,7 +52,7 @@ export default function Projects() {
         <div class="row row-cols-1 row-cols-md-2 g-4">
           {volunteerExperienceData.map((projects, index) => (
             <ProjectCard
-              ProjectId={projects.id}
+              ProjectId={index}
               ProjectTitle={projects.title}
               ProjectSubTitle={projects.subtitle}
               ProjectDescription={projects.desc}

@@ -4,7 +4,7 @@ import ReactModal from "react-modal";
 import { useState } from "react";
 export default function Contact() {
   const [thankyouModalRef, setThankyouModalState] = useState(false);
-  const instagram = "https://instagram.com/wh0sumiit";
+  const instagram = "https://instagram.com/wh0sumit";
   const linkedin = "https://www.linkedin.com/in/wh0sumit";
   const twitter = "https://twitter.com/wh0sumit";
   const github = "https://github.com/wh0sumit";

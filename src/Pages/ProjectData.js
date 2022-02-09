@@ -12,7 +12,7 @@ const ProjectData = {
       title: "Invoicetor",
       desc: "Invoicetor is a platform where business holders can create invoice for their businesses. It's a invoice generator, with a simple UI, and a lots of features. ",
       github: "https://github.com/SyndicateHQ/Invoicetor",
-      view: "https://invoicetor.vercel.app/",
+      view: "https://invoicetorbeta.vercel.app/",
     },
     {
       id: 3,
@@ -67,8 +67,8 @@ const SideProjectData = {
   ],
 };
 
-const PersonalExperienceData = {
-  PersonalExperienceData: [
+const ProfessionalExperienceData = {
+  ProfessionalExperienceData: [
     {
       id: 1,
       title: "Angel Ai",
@@ -77,6 +77,7 @@ const PersonalExperienceData = {
       Using my skills in debugging to check code, improve code and enhance the functionality and user experience of the web application.
       Supervise junior developers, providing training and motivating team members. 
        `,
+      techStack: ["React", "SCSS", "Bootstrap"],
     },
   ],
 };
@@ -110,6 +111,6 @@ const VolunteerExperienceData = {
 export {
   ProjectData,
   SideProjectData,
-  PersonalExperienceData,
+  ProfessionalExperienceData,
   VolunteerExperienceData,
 };

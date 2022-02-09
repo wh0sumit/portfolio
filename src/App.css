@@ -81,12 +81,17 @@ h6 {
   color: #141720;
 }
 
+.badge-dark:hover {
+  background-color: #141720;
+  color: #fff;
+}
+
 .custom-underline {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(30%, #9213e8));
   background: linear-gradient(transparent 70%, #9213e8 30%);
   display: inline;
   margin-top: 50px;
-  padding-bottom: 0;
+  padding: 3px 12px;
   /*@include mq('sp') {
       font-size: $size-subTitle-sp;
       margin-top: 30px;
