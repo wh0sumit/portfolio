@@ -1,15 +1,8 @@
-import { useState } from "react";
-import { ProfessionalExperienceData } from "./ProjectData";
-import ProjectCard from "./ProjectCard";
-
 import Footer from "../components/Footer";
-import myImg from "../assets/profile-2.jpeg";
+import myMemoji from "../assets/sumit-memoji.png";
 import Popsound from "../assets/pop.mp3";
 
 export default function About() {
-  const [professionalExperienceData] = useState(
-    ProfessionalExperienceData.ProfessionalExperienceData
-  );
   const playpop = (e) => {
     var audio = new Audio(Popsound);
 
@@ -25,7 +18,7 @@ export default function About() {
         <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-lg-5 px-3 ">
           <div class="col-10 col-sm-8 col-lg-5 ">
             <img
-              src={myImg}
+              src={myMemoji}
               className=" img-fluid my-img mb-3 mb-lg-2"
               alt="Sumit Profile"
               loading="lazy"
@@ -66,22 +59,6 @@ export default function About() {
               Anything.
             </h5>
           </div>
-        </div>
-      </div>
-
-      {/* div */}
-      <div className="container p-5 py-2">
-        <h1 className="head my-3 fw-bold">Professional Experience</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-2">
-          {professionalExperienceData.map((projects, index) => (
-            <ProjectCard
-              ProjectId={projects.id}
-              ProjectTitle={projects.title}
-              ProjectSubTitle={projects.subtitle}
-              ProjectDescription={projects.desc}
-              ProjectTech={projects.techStack.map((tech) => tech)}
-            ></ProjectCard>
-          ))}
         </div>
       </div>
 

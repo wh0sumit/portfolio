@@ -41,15 +41,6 @@ h6 {
   line-height: 1.5;
 }
 
-.nav-btn-link {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.nav-btn-link:hover {
-  background-color: #dfdfdf;
-}
-
 .card {
   background-color: #dfdfdf;
 }
@@ -58,23 +49,13 @@ h6 {
   border-radius: 20px;
 }
 
-.gray-img {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.gray-img:hover {
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%);
-}
-
 .badge {
   border-radius: 6px !important;
   padding: 5px 8px;
   background-color: #b59dff;
   color: #141720;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .badge:hover {
@@ -145,5 +126,14 @@ h6 {
 .btn-custom-1:hover {
   background-color: #bdbdbd;
   color: #141720;
+}
+
+.nav-link {
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+}
+
+.nav-link:hover {
+  color: #d6d6d6;
 }
 /*# sourceMappingURL=App.css.map */

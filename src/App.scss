@@ -44,31 +44,27 @@ h6 {
   font-weight: 400;
   line-height: 1.5;
 }
-.nav-btn-link {
-  transition: all 0.2s;
-  &:hover {
-    background-color: $color-2;
-  }
-}
+
 .card {
   background-color: $color-2;
 }
 .rounded-5 {
   border-radius: 20px;
 }
-.gray-img {
-  transition: all 0.5s;
-  filter: grayscale(100%);
+// .gray-img {
+//   transition: all 0.5s;
+//   filter: grayscale(100%);
 
-  &:hover {
-    filter: grayscale(0%);
-  }
-}
+//   &:hover {
+//     filter: grayscale(0%);
+//   }
+// }
 .badge {
   border-radius: 6px !important;
   padding: 5px 8px;
   background-color: $badge-color-1;
   color: $color-1;
+  transition: all 0.2s;
   &:hover {
     color: $color-1;
   }
@@ -128,5 +124,13 @@ h6 {
   &:hover {
     background-color: $color-4;
     color: $color-1;
+  }
+}
+
+.nav-link {
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+  &:hover {
+    color: $color-3;
   }
 }

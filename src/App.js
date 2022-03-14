@@ -9,6 +9,7 @@ import Hi from "./Pages/Hi";
 import Projects from "./Pages/Projects";
 import About from "./Pages/About.js";
 import Contact from "./Pages/Contact.js";
+import Experience from "./Pages/Experience";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Hi />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="experience" element={<Experience />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
