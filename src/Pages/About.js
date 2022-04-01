@@ -3,15 +3,6 @@ import myMemoji from "../assets/sumit-memoji.png";
 // import Popsound from "../assets/pop.mp3";
 
 export default function About() {
-  // const playpop = (e) => {
-  //   var audio = new Audio(Popsound);
-
-  //   audio.play();
-  // };
-  // const stoppop = (e) => {
-  //   var audio = new Audio(Popsound);
-  //   audio.pause();
-  // };
   return (
     <>
       <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-5">
