@@ -3,15 +3,15 @@ import myMemoji from "../assets/sumit-memoji.png";
 import Popsound from "../assets/pop.mp3";
 
 export default function About() {
-  const playpop = (e) => {
-    var audio = new Audio(Popsound);
+  // const playpop = (e) => {
+  //   var audio = new Audio(Popsound);
 
-    audio.play();
-  };
-  const stoppop = (e) => {
-    var audio = new Audio(Popsound);
-    audio.pause();
-  };
+  //   audio.play();
+  // };
+  // const stoppop = (e) => {
+  //   var audio = new Audio(Popsound);
+  //   audio.pause();
+  // };
   return (
     <>
       <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-5">
@@ -19,7 +19,7 @@ export default function About() {
           <div class="col-10 col-sm-8 col-lg-5 ">
             <img
               src={myMemoji}
-              className=" img-fluid my-img mb-3 mb-lg-2"
+              className=" img-fluid mb-3 mb-lg-2"
               alt="Sumit Profile"
               loading="lazy"
             />
@@ -30,16 +30,16 @@ export default function About() {
               Hi! Thanks for stopping by. I’m currently working remotely as a
               Frontend Developer at &nbsp;
               <span className="about-title text-decoration-underline">
-                Vector 32
+                UnityLabs.ai
               </span>
-              &nbsp; and looking to switch jobs.
+              &nbsp;.
             </h5>
             <h5 className="my-3">
               I’m a developer with 1 year of experience in Front-end
               Development. I became a Frontend Developer because the idea of
               solving problems gave me an immense thrill.
             </h5>
-            <h5 className="my-3">
+            {/* <h5 className="my-3">
               Also, I run a digital marketing agency called{" "}
               <a
                 className="badge fw-bold fs-5 text-decoration-none"
@@ -52,6 +52,11 @@ export default function About() {
                 The Bug Community
               </a>{" "}
               that helps businesses increase leads, traffic, and sales.
+            </h5> */}
+            <h5 className="my-3">
+              I'm currently working on desgin systems & micro-saas applications
+              for startups and small businesses. &nbsp; Lunching soon, stay
+              tuned!
             </h5>
             <h5 className="my-3">
               I love to solve challenging problems. Curious and adventurous by
@@ -154,6 +159,9 @@ export default function About() {
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">SCSS</h6>
+              </li>{" "}
+              <li className="nav-item mb-2">
+                <h6 className="nav-link small p-0 text-muted">NextJs</h6>
               </li>
             </ul>
           </div>

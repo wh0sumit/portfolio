@@ -13,6 +13,8 @@ body {
   font-family: $font-1;
   font-weight: 500;
   background-color: $color-1;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 h1,
@@ -73,6 +75,12 @@ h6 {
   &:hover {
     background-color: #141720;
     color: #fff;
+  }
+}
+.badge-light {
+  &:hover {
+    background-color: $color-2;
+    color: #141720;
   }
 }
 

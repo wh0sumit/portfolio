@@ -4,6 +4,7 @@ import {
   VolunteerExperienceData,
 } from "./ProjectData";
 import ProjectCard from "./ProjectCard";
+import Footer from "../components/Footer";
 
 export default function Experience() {
   const [professionalExperienceData] = useState(
@@ -57,6 +58,14 @@ export default function Experience() {
           ))}
         </div>
       </div>
+      <Footer
+        title="I occasionally take on freelance opportunities."
+        desc="  Have an exciting project where you need some help? Send me over a
+      message, and let's chat!"
+        btnTitle="Drop a message"
+        btnIcon="fas fa-paper-plane mx-2"
+        file="/Contact"
+      />
     </>
   );
 }
