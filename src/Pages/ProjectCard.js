@@ -1,7 +1,6 @@
 import React from "react";
 
 function Cards({
-  ProjectId,
   ProjectTitle,
   ProjectDescription,
   ProjectSubTitle,

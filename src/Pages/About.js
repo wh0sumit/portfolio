@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import myMemoji from "../assets/sumit-memoji.png";
-import Popsound from "../assets/pop.mp3";
+// import Popsound from "../assets/pop.mp3";
 
 export default function About() {
   // const playpop = (e) => {
