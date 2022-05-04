@@ -8,7 +8,7 @@ const ProjectData = {
       title: "Invoicetor",
       desc: "Invoicetor is a platform that helps businesses to digitize their finances in an easy manner and create invoices in a simple way. It's a no-code platform & Open-Source so anyone can contribute to it. Invoicetor is currently in under development, we are working on it, soon planning to realease first verison.",
 
-      view: "https://invoicetor.vercel.app/",
+      view: "https://invoicetor.works/",
     },
     {
       title: "Propack",

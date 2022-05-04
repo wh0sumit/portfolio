@@ -3,15 +3,6 @@ import { NavLink } from "react-router-dom";
 import Hand from "../assets/hand.gif";
 // import Popsound from "../assets/pop.mp3";
 export default function Navbar() {
-  const links = [
-    {
-      instagram: "https://www.instagram.com/wh0sumit/",
-      linkedin: "https://www.linkedin.com/in/wh0sumit",
-      twitter: "https://twitter.com/wh0sumit",
-      github: "https://github.com/wh0sumit",
-    },
-  ];
-
   // const playpop = (e) => {
   //   var audio = new Audio(Popsound);
 
@@ -70,7 +61,7 @@ export default function Navbar() {
         <ul className="d-none d-lg-flex p-lg-4 ps-0 m-0 ">
           <li className="mx-lg-3 align-self-center">
             <a
-              href={links.instagram}
+              href="https://www.instagram.com/wh0sumit/"
               className="text-decoration-none "
               target="_blank"
               rel="noreferrer"
@@ -80,7 +71,7 @@ export default function Navbar() {
           </li>
           <li className="mx-lg-3 align-self-center">
             <a
-              href={links.twitter}
+              href="https://www.twitter.com/wh0sumit"
               target="_blank"
               rel="noreferrer"
               className="text-decoration-none"
@@ -90,7 +81,7 @@ export default function Navbar() {
           </li>
           <li className="mx-lg-3 align-self-center">
             <a
-              href={links.linkedin}
+              href="https://www.linkedin.com/in/wh0sumit"
               target="_blank"
               rel="noreferrer"
               className="text-decoration-none"
@@ -100,7 +91,7 @@ export default function Navbar() {
           </li>
           <li className="mx-lg-3 align-self-center">
             <a
-              href={links.github}
+              href="https://github.com/wh0sumit"
               target="_blank"
               rel="noreferrer"
               className="text-decoration-none"
