@@ -1,14 +1,15 @@
 const ProjectData = {
   ProjectsData: [
     {
-      title: "Syndicate",
-      desc: "Syndicate is a platform where business holders can showcase their business in no time, it's a webpage builder where any business holder can create their webpage and showcase their business details and services. Syndicate is currently in under development.",
-    },
-    {
       title: "Invoicetor",
       desc: "Invoicetor is a platform that helps businesses to digitize their finances in an easy manner and create invoices in a simple way. It's a no-code platform & Open-Source so anyone can contribute to it. Invoicetor is currently in under development, we are working on it, soon planning to realease first verison.",
 
       view: "https://invoicetor.works/",
+      github: "https://github.com/dunolabs/invoicetor",
+    },
+    {
+      title: "Syndicate",
+      desc: "Syndicate is a platform where business holders can showcase their business in no time, it's a webpage builder where any business holder can create their webpage and showcase their business details and services. Syndicate is currently in under development.",
     },
     {
       title: "Propack",
@@ -58,6 +59,12 @@ const SideProjectData = {
 
 const ProfessionalExperienceData = {
   ProfessionalExperienceData: [
+    {
+      title: "UnityLabs.ai",
+      subtitle: "{ SDE Intern }",
+      desc: "I created a lot of beautiful components using react, nextjs, and scss to make the product more user-friendly; Unitylabs offers a suite of managed cloud-based infrastructure & platform solutions for lead generation, web scraping, and data analysis. I developed components that directly interface with the backend APIs using tables and charts in dashboard pages. Throughout the internship, I have gained a lot of knowledge and made several valuable contributions.",
+      techStack: ["React", "NextJS", "SCSS"],
+    },
     {
       title: "Vector 32",
       subtitle: "{ Frontend Engineer }",
