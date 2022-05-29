@@ -7,11 +7,27 @@ export default function Footer(props) {
       <section class="py-lg-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-5 col-md-8 mx-auto">
-            <h1 class="head">{props.title}</h1>
-            <p class=" text-muted">{props.desc}</p>
+            <h1 class="head">
+              {props.title
+                ? props.title
+                : "I occasionally take on freelance opportunities."}
+            </h1>
+            <p class=" text-muted">
+              {props.desc
+                ? props.desc
+                : "Have an exciting project where you need some help? Send me over a message, and let's chat!"}
+            </p>
             <div className="d-flex flex-wrap justify-content-center">
-              <Link to={props.file} class="btn btn-custom-1 m-2">
-                {props.btnTitle} <i class={props.btnIcon}></i>
+              <Link
+                to={props.file ? props.file : "none"}
+                class="btn btn-custom-1 m-2"
+              >
+                {props.btnTitle ? props.btnTitle : "Drop a message"}{" "}
+                <i
+                  class={
+                    props.btnIcon ? props.btnIcon : "fas fa-paper-plane mx-2"
+                  }
+                ></i>
               </Link>
               <a
                 class="btn btn-custom-1 m-2"

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import myImg from "../assets/profile-2.jpeg";
 export default function Work() {
   return (
@@ -12,6 +14,25 @@ export default function Work() {
               With a keen eye for creating engaging websites, UI and bringing
               products to life.
             </h5>
+            <div className="d-flex flex-wrap ">
+              <Link to="/contact" className="text-decoration-none">
+                <button className="btn btn-custom-1   d-flex d-lg-none">
+                  Drop a message
+                  <i class="fas fa-paper-plane mx-2 mt-1"></i>
+                </button>
+              </Link>
+              <a
+                href="https://wh0sumit.notion.site/wh0sumit/Sumit-Singh-0a69c9570cc34c5488ea5073231a372f"
+                className="text-decoration-none"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="btn btn-custom-1 ms-3 d-flex d-lg-none">
+                  Resume
+                  <i class="fas fa-file-alt mx-2 mt-1"></i>
+                </button>
+              </a>
+            </div>
           </div>
           <div class="col-10 col-sm-8 col-lg-5 ">
             <img

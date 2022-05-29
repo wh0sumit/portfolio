@@ -30,28 +30,25 @@ export default function About() {
               Development. I became a Frontend Developer because the idea of
               solving problems gave me an immense thrill.
             </h5>
-            {/* <h5 className="my-3">
-              Also, I run a digital marketing agency called{" "}
+            <h5 className="my-3">
+              Also, I'm a Founder of a digital marketing agency called{" "}
               <a
-                className="badge fw-bold fs-5 text-decoration-none"
+                className="fs-5  text-light"
                 href="https://www.thebugcommunity.in/"
                 target="_blank"
                 rel="noreferrer"
-                onMouseOver={playpop}
-                onMouseLeave={stoppop}
               >
                 The Bug Community
               </a>{" "}
               that helps businesses increase leads, traffic, and sales.
-            </h5> */}
+            </h5>
             <h5 className="my-3">
-              I'm currently working on desgin systems & micro-saas applications
-              for startups and small businesses. &nbsp; Lunching soon, stay
-              tuned!
+              I'm currently working on micro-saas applications for startups and
+              small businesses.
             </h5>
             <h5 className="my-3">
               I love to solve challenging problems. Curious and adventurous by
-              nature, I love to connect with people who can teach me something.
+              nature, I love to connect with people who can teach me something ~
               Anything.
             </h5>
           </div>
@@ -68,7 +65,7 @@ export default function About() {
             <h6 className="bold mt-5 about-title"> Learning</h6>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <h6 className="nav-link small p-0 text-muted">MERN Stack</h6>
+                <h6 className="nav-link small p-0 text-muted">React & Redux</h6>
               </li>
               <li className="nav-item mb-2">
                 <h6 className="nav-link small p-0 text-muted">

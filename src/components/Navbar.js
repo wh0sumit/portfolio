@@ -58,7 +58,12 @@ export default function Navbar() {
             </NavLink>
           </li>
         </ul>
-        <ul className="d-none d-lg-flex p-lg-4 ps-0 m-0 ">
+        <ul
+          className="d-none d-lg-flex p-lg-4 ps-0 m-0 "
+          style={{
+            listStyle: "none",
+          }}
+        >
           <li className="mx-lg-3 align-self-center">
             <a
               href="https://www.instagram.com/wh0sumit/"
