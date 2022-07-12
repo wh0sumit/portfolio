@@ -1,5 +1,5 @@
 import emailjs from "emailjs-com";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import ReactModal from "react-modal";
 import { useState } from "react";
 export default function Contact() {
@@ -56,7 +56,7 @@ export default function Contact() {
             <h1 className="display-4 fw-bold lh-1 mb-3">
               Having a great idea to share?
             </h1>
-            <p className="col-lg-10 fs-6 text-muted">
+            <p className="col-lg-10 fs-6 text-dim">
               or want to have a cup of coffee and chit chat, just drop me a
               message !
             </p>
@@ -111,7 +111,7 @@ export default function Contact() {
                 className="w-100 btn btn-lg btn-dark rounded-5"
                 type="submit"
               >
-                Send Message <i className="fas fa-paper-plane mx-1"></i>
+                Send Message 🚀
               </button>
               <hr className="my-4" />
               <p className="text-center small">Or connect with me here :</p>
@@ -157,7 +157,7 @@ export default function Contact() {
         title="I help people build seamless user experiences."
         desc=" You can have a look at my past work and side projects by going to the work and side projects section."
         btnTitle="See Past Work"
-        btnIcon="fas fa-briefcase mx-2"
+        btnIcon="💼"
         file="/Projects"
       />
 

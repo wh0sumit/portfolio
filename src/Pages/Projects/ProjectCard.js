@@ -10,14 +10,9 @@ function Cards({
 }) {
   return (
     <>
-      <div className="col">
-        <div
-          class="card rounded-5 p-2 shadow-sm my-2 "
-          style={{
-            backgroundColor: "#1E262F",
-          }}
-        >
-          <div class="card-body">
+      <div className="col ">
+        <div class="card rounded-5 p-2 shadow-sm my-2 bg-blur">
+          <div class="card-body ">
             <h5
               class="text-decoration-underline"
               style={{
@@ -26,9 +21,7 @@ function Cards({
             >
               {ProjectTitle}
             </h5>
-            <h6 className="my-2 text-secondary fst-italic">
-              {ProjectSubTitle}
-            </h6>
+            <h6 className="my-2 text-light fst-italic">{ProjectSubTitle}</h6>
             <p
               class="card-text"
               style={{
@@ -44,7 +37,7 @@ function Cards({
                   href={GithubURL}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-light rounded-5 px-2 py-1 "
+                  className="btn btn-light rounded-5 px-2 py-1  "
                 >
                   <i className="fab fa-github text-dark"></i>
                 </a>

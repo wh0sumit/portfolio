@@ -5,16 +5,29 @@ $font-1: "Roboto", sans-serif;
 $font-2: "DM Serif Display", serif;
 $color-1: #141720;
 $color-2: #dfdfdf;
-$color-3: #d6d6d6;
+$color-3: #ababab;
 $color-4: #bdbdbd;
 $badge-color-1: #b59dff;
 
 body {
   font-family: $font-1;
   font-weight: 500;
-  background-color: $color-1;
+  // background-color: $color-1;
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+
   margin: 0 !important;
   padding: 0 !important;
+}
+
+a {
+  &hover {
+    color: $color-1 !important;
+  }
 }
 
 h1,
@@ -25,12 +38,22 @@ h3 {
   color: $color-2;
 }
 
+.text-dim {
+  color: $color-3;
+}
+
 .intro {
   font-family: $font-2;
 }
 .my-img {
-  border-radius: 15px;
+  // border-radius: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: none;
+  //////////////
+  --squircle-smooth: 0.8;
+  --squircle-radius: 20px;
+  // border: 4px solid $badge-color-1;
+  mask-image: paint(squircle);
 }
 h1 {
   font-family: $font-2;
@@ -64,7 +87,7 @@ h6 {
 .badge {
   border-radius: 6px !important;
   padding: 5px 8px;
-  background-color: $badge-color-1;
+  background-color: $color-2;
   color: $color-1;
   transition: all 0.2s;
   &:hover {
@@ -109,7 +132,7 @@ h6 {
 }
 
 .btn-light {
-  background-color: $color-3;
+  background-color: $color-2;
 }
 .btn-dark {
   background-color: $color-1;
@@ -119,6 +142,7 @@ h6 {
   color: $color-2 !important;
 }
 .head {
+  color: $color-2;
   font-weight: 700;
 }
 

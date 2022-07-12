@@ -2,9 +2,9 @@ import { useState } from "react";
 import {
   ProfessionalExperienceData,
   VolunteerExperienceData,
-} from "./ProjectData";
-import ProjectCard from "./ProjectCard";
-import Footer from "../components/Footer";
+} from "./Projects/ProjectData";
+import ProjectCard from "./Projects/ProjectCard";
+import Footer from "../components/Footer/Footer";
 
 export default function Experience() {
   const [professionalExperienceData] = useState(
@@ -19,7 +19,7 @@ export default function Experience() {
       <div className="container col-xxl-9 px-lg-5 px-2 py-5 my-lg-2 mt-3 mb-5">
         <div className="my-3">
           <h1 className="fw-bold  my-3">Professional Experience</h1>
-          <p className="text-muted">
+          <p className="text-dim">
             I've done a lot of work in the past, and I'm proud of it. some of
             the internships and jobs I've had the pleasure of working on are
             listed below.
@@ -40,7 +40,7 @@ export default function Experience() {
       <div className="container col-xxl-9 px-lg-5 px-2 py-5 my-lg-2 mt-3 mb-5">
         <div className="my-3">
           <h1 className="fw-bold  my-3">Volunteer Experience</h1>
-          <p className="text-muted">
+          <p className="text-dim">
             I'm an active member of many organizations, and I've had the
             pleasure of volunteering in many different ways.
           </p>
@@ -63,7 +63,6 @@ export default function Experience() {
         desc="  Have an exciting project where you need some help? Send me over a
       message, and let's chat!"
         btnTitle="Drop a message"
-        btnIcon="fas fa-paper-plane mx-2"
         file="/Contact"
       />
     </>

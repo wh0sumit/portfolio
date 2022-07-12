@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Hand from "../assets/hand.gif";
+import Hand from "../../assets/hand.gif";
+
 // import Popsound from "../assets/pop.mp3";
 export default function Navbar() {
   // const playpop = (e) => {
@@ -23,6 +24,7 @@ export default function Navbar() {
       };
     }
   };
+
   return (
     <>
       <nav className=" m-2 d-flex justify-content-lg-around justify-content-center">
