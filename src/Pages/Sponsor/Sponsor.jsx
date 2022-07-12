@@ -60,8 +60,7 @@ export default function Sponsor() {
           <img
             src="https://media.giphy.com/media/fA81FF4mdE6lgeoJwb/giphy.gif"
             className=" img-fluid my-img my-lg-0 my-4"
-            alt="Sumit Profile"
-            loading="lazy"
+            alt="Gif"
           />
         </div>
       </div>

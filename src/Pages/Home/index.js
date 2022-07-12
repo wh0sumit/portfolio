@@ -40,7 +40,6 @@ export default function Home() {
               src={myImg}
               className=" img-fluid my-img  mb-5 "
               alt="Sumit Profile"
-              loading="lazy"
             />
           </div>
         </div>
