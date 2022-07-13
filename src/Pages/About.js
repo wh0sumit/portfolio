@@ -17,20 +17,14 @@ export default function About() {
           </div>
           <div className="col-lg-6 text-light">
             {/* <h1 className="display-3 fw-bold intro ">Sumit Singh</h1> */}
-            <h5 className="mt-lg-5 mt-3 mb-3">
-              Hi! Thanks for stopping by. I’m currently working remotely as a
-              Frontend Developer at &nbsp;
-              <span className="head text-decoration-underline">
-                UnityLabs.ai
-              </span>
-              &nbsp;.
-            </h5>
+            <h5 className="mt-lg-5 mt-3 mb-3">Hi! Thanks for stopping by 🌱</h5>
+
             <h5 className="my-3">
               I’m a developer with 1 year of experience in Front-end
               Development. I became a Frontend Developer because the idea of
               solving problems gave me an immense thrill.
             </h5>
-            <h5 className="my-3">
+            {/* <h5 className="my-3">
               Also, I'm a Founder of a digital marketing agency called{" "}
               <a
                 className="fs-5  text-light"
@@ -41,16 +35,31 @@ export default function About() {
                 The Bug Community
               </a>{" "}
               that helps businesses increase leads, traffic, and sales.
-            </h5>
+            </h5> */}
             <h5 className="my-3">
-              I'm currently working on micro-saas applications for startups and
-              small businesses.
+              I am currently developing micro-saas applications for startups and
+              individuals at my own project called{" "}
+              <a
+                className="fs-5  text-light"
+                href="https://github.com/dunolabs"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Dunolabs
+              </a>{" "}
+              .
             </h5>
             <h5 className="my-3">
               I love to solve challenging problems. Curious and adventurous by
               nature, I love to connect with people who can teach me something ~
               Anything.
             </h5>
+            <div className="card text-dim rounded-5 bg-blur">
+              <div className="card-body">
+                Currently open for full-time/intern job roles in frontend
+                developement & open for freelance work 💛
+              </div>
+            </div>
           </div>
         </div>
       </div>
