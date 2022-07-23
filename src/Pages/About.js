@@ -7,7 +7,7 @@ export default function About() {
     <>
       <div className="container col-xxl-9  px-2 py-5 my-lg-2 mt-3 mb-lg-5 mb-0">
         <div className="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap px-lg-5 px-3 ">
-          <div class="col-10 col-sm-8 col-lg-5 ">
+          <div className="col-10 col-sm-8 col-lg-5 ">
             <img
               src={myMemoji}
               className=" img-fluid mb-3 mb-lg-2"
@@ -37,8 +37,8 @@ export default function About() {
               that helps businesses increase leads, traffic, and sales.
             </h5> */}
             <h5 className="my-3">
-              I am currently developing micro-saas applications for startups and
-              individuals at my own project called{" "}
+              I am currently building coummunity-driven open-source applications
+              at{" "}
               <a
                 className="fs-5  text-light"
                 href="https://github.com/dunolabs"

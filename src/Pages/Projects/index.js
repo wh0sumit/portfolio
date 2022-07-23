@@ -20,7 +20,7 @@ export default function Projects() {
             projects-based learning.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
           {projectsData.map((projects, index) => (
             <ProjectCard
               ProjectId={index}
@@ -40,7 +40,7 @@ export default function Projects() {
             of the side projects I've created.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
           {sideprojectsData.map((projects, index) => (
             <ProjectCard
               ProjectId={index}

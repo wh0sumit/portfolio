@@ -22,11 +22,11 @@ export default function Sponsor() {
         target="_blank"
       >
         <button className="btn btn-custom-1 ">
-          Sponsor me on Github <i class="fab fa-github"></i>
+          Sponsor me on Github <i className="fab fa-github"></i>
         </button>
       </a>
       <div className="d-flex align-items-center flex-wrap-reverse gap-3 mx-0 my-lg-2 my-0">
-        <div class="col-lg-6">
+        <div className="col-lg-6">
           <h5 className="my-0 my-lg-3 text-dim">
             I'm a designer-developer and I'm building open-source micro-saas
             applications/tools to benefit people around the world and make their
@@ -56,7 +56,7 @@ export default function Sponsor() {
             💜
           </h5>
         </div>
-        <div class="col-10 col-sm-8 col-lg-5 ">
+        <div className="col-10 col-sm-8 col-lg-5 ">
           <img
             src="https://media.giphy.com/media/fA81FF4mdE6lgeoJwb/giphy.gif"
             className=" img-fluid my-img my-lg-0 my-4"

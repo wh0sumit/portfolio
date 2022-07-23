@@ -25,7 +25,7 @@ export default function Experience() {
             listed below.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-2">
+        <div className="row row-cols-1 row-cols-md-2 g-2">
           {professionalExperienceData.map((projects, index) => (
             <ProjectCard
               ProjectId={projects.id}
@@ -45,7 +45,7 @@ export default function Experience() {
             pleasure of volunteering in many different ways.
           </p>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
           {volunteerExperienceData.map((projects, index) => (
             <ProjectCard
               ProjectId={index}
